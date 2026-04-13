@@ -1,0 +1,44 @@
+# Compiled output
+*.class
+out/
+bin/
+target/
+build/
+
+# Package / archive
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+hs_err_pid*.log
+
+# JVM crash dumps
+replay_pid*
+
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# IDE - VS Code / Cursor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Env / secrets (common patterns)
+.env
+.env.local
+*.pem
