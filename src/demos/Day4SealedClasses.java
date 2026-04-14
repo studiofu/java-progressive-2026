@@ -1,3 +1,5 @@
+package demos;
+
 public class Day4SealedClasses {
 
   // 1. The Sealed Interface

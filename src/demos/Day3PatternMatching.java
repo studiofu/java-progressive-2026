@@ -1,3 +1,5 @@
+package demos;
+
 public class Day3PatternMatching {
 
   // Let's set up some types to work with

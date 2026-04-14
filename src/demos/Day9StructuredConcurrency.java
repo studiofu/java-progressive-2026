@@ -1,7 +1,9 @@
+package demos;
+
 import java.util.concurrent.StructuredTaskScope;
 import java.time.Duration;
 
-// java --enable-preview --source 25 Day9StructuredConcurrency.java
+// java --enable-preview -cp out demos.Day9StructuredConcurrency
 
 public class Day9StructuredConcurrency {
 

@@ -1,3 +1,5 @@
+package demos;
+
 import java.time.Duration;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;

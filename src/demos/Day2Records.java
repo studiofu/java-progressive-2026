@@ -1,3 +1,5 @@
+package demos;
+
 import java.util.Objects;
 
 public class Day2Records {

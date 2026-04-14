@@ -1,3 +1,5 @@
+package demos;
+
 import java.util.List;
 import java.util.stream.Gatherers;
 
