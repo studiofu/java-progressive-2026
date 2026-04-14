@@ -45,5 +45,21 @@ public class Day8SpringBootSimulator {
         
         long duration = System.currentTimeMillis() - startTime;
         System.out.println(serverName + " handled " + requests + " requests in " + duration + " ms");
+
+
+        IntStream.range(0,10).forEach(i -> {
+            System.out.println("Hello from range #" + i);
+        });
+
+        IntStream.rangeClosed(0,10).forEach(i -> {
+            System.out.println("Hello from rangeClosed #" + i);
+        });
+
+        IntStream.of(99,100,101).average().ifPresent((avg) -> {
+            System.out.println("Average: " + avg);
+        });
+
+
+
     }
 }
